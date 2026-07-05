@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Lab Practice</title>
+</head>
+<body>
+
+    <h1 id="title">Original Title</h1>
+    <button onclick="setValue()">Test Set Value</button>
+
+    <hr>
+
+    <form onsubmit="return validation()">
+        <label>Username:</label>
+        <input type="text" id="username">
+        <span id="usernameErr" style="color:red;"></span>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <span id="passwordErr" style="color:red;"></span>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
