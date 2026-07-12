@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly> 
+        
+        <table width="100%">
+            <tr>
+                <td><button class="button" onclick="clearDisplay()"><span style="color: brown;">C</span></button></td>
+                <td><button class="button" onclick="sendValue('1')">1</button></td>
+                <td><button class="button" onclick="sendValue('2')">2</button></td>
+                <td><button class="button" onclick="sendValue('/')">/</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="button" onclick="sendValue('3')">3</button></td>
+                <td><button class="button" onclick="sendValue('4')">4</button></td>
+                <td><button class="button" onclick="sendValue('5')">5</button></td>
+                <td><button class="button" onclick="sendValue('*')">*</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="button" onclick="sendValue('6')">6</button></td>
+                <td><button class="button" onclick="sendValue('7')">7</button></td>
+                <td><button class="button" onclick="sendValue('8')">8</button></td>
+                <td><button class="button" onclick="sendValue('-')">-</button></td>
+            </tr>
+
+             <tr>
+                <td><button class="button" onclick="sendValue('9')">9</button></td>
+                <td><button class="button" onclick="sendValue('0')">0</button></td>
+                <td><button class="button" onclick="calculate()">=</button></td>
+                <td><button class="button" onclick="sendValue('+')">+</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
