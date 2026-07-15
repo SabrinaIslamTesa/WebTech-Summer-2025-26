@@ -1,0 +1,51 @@
+body {
+    display: flex;           
+    justify-content: center;   
+    align-items: center;        
+    height: 100vh;              
+    background-color: white;                   
+    font-family: Arial, sans-serif; 
+}
+
+
+.form {
+    width: 450px; 
+    height: 490px;
+    display: flex;
+    background-color: rgb(146, 178, 197);
+    padding: 25px;  
+    box-sizing: border-box;
+     
+}
+button{
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+select {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.form table {
+    height: 100%;
+    width: 100%;
+}
+
+.list-table {
+    background-color: #cfe8f7;
+    width: 390px;  
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.list-table th, 
+.list-table td {
+    border: 1px solid black;
+    padding: 8px; 
+    text-align: left; 
+}
+

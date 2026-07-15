@@ -1,0 +1,79 @@
+
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="form">
+             <form onsubmit="return validation();">
+             <p style="text-align: center; color: brown;">Student Registration Form</span></b></p>
+      <table>
+        <tr>
+          <td><b>First Name</b></td>
+          <td><input type="text" id="firstName" /></td>
+          <td><p style="color: red" id="firstNameErr"></p></td>
+        </tr>
+
+        <tr>
+          <td><b>Last Name</b></td>
+          <td><input type="text" id="lastName" /></td>
+          <td><p style="color: red" id="lastNameErr"></p></td>
+        </tr>
+
+        <tr>
+          <td><b>Student ID</b></td>
+          <td><input type="text" id="id" /></td>
+          <td><p style="color: red" id="idErr"></p></td>
+        </tr>
+
+
+        <tr>
+          <td><b>Email</b></td>
+          <td><input type="text" id="email" /></td>
+          <td><p style="color: red" id="emailErr"></p></td>
+        </tr>
+
+
+        <tr>
+          <td><b>Credit Completed</b></td>
+          <td><input type="text" id="credit" /></td>
+          <td><p style="color: red" id="creditErr"></p></td>
+        </tr>
+
+
+        <tr>
+          <td><b>Department</b></td>
+          <td><select id="dept"><option value="">Select Department</option>
+            <option>CS</option><option>Math</option><option>Physics</option></select></td>
+          <td><span style="color: red;">*</span></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><button style="color: brown;"><b>Submit</b></button> </td>
+        </tr>
+
+      </table>
+    
+    </form>
+   
+</div>
+
+
+<table id="studentTable" class="list-table" style="border: 1px solid black";>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Student ID</th>
+        <th>Email</th>
+        <th>Credit</th>
+        <th>Dept</th>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
